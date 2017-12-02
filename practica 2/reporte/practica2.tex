@@ -212,7 +212,7 @@ W_P2=\frac{1}{\tau}=\frac{1}{\frac{L}{R_{eq}}}=\frac{R_2+R_1 \parallel R_3}{L}
 \begin{figure}[h!]
   \centering
     \includegraphics[width=3.5in]{ac}
-  \caption{.}
+  \caption{Respuesta del circuito como filtro pasa altas.}
 \end{figure}
 \begin{lstlisting}[frame=single]
     Vin 1 0 AC 5
@@ -227,12 +227,12 @@ W_P2=\frac{1}{\tau}=\frac{1}{\frac{L}{R_{eq}}}=\frac{R_2+R_1 \parallel R_3}{L}
 \begin{figure}[h!]
   \centering
     \includegraphics[width=3.5in]{pulse}
-  \caption{.}
+  \caption{Transitorio.}
 \end{figure}
 \begin{figure}[h!]
   \centering
     \includegraphics[width=3.5in]{pulse2}
-  \caption{.}
+  \caption{Transitorio del circuito con funciòn impulso.}
 \end{figure}
 \begin{lstlisting}[frame=single]
     Vin  1 0   pulse(0v,5v,0s,1ns,1ns,1ms,2ms,3ms,4ms,5ms) 
@@ -243,6 +243,25 @@ W_P2=\frac{1}{\tau}=\frac{1}{\frac{L}{R_{eq}}}=\frac{R_2+R_1 \parallel R_3}{L}
     .tran     100us   2.5ms
     .end
 \end{lstlisting}
+Silab:
+\begin{lstlisting}[frame=single]
+    s =%s
+    poly (0 , 's')
+    wz1=122222.2222;
+    wp1=0.000002653;
+    wp2=376851.8519;
+    simpleSys=syslin('c', wz1/((s/wp1)+(s/wp2))) //funcio de        transferencia
+    t=0:0.0001:100000;
+    y=csim('step', t, simpleSys)//funcion escalon step
+    plot(t,y)
+    xlabel('frecuencia (Hz)')
+    ylabel('decibeles(dB)')
+\end{lstlisting}
+\begin{figure}[h!]
+  \centering
+    \includegraphics[width=3.5in]{silabimag}
+  \caption{Ecuacion en Silab.}
+\end{figure}
 \section{Parte 3}
 Barrido de dato en frecuencia:\\
 Se hace un barrido en frecuencia en el cual nos muestra el funcionamiento del dispositivo el cual nos arroja como resultado el análisis espectral nos hace ver que el circuito tiene frecuencias de corte por que se ingresa una señal la cual tiene un ancho de banda de trabajo así como a mayoría de los componentes de silicio tienen problemas con la frecuencia hay puntos en bajas frecuencias en las que atenúan y al aumentar la frecuencia sube la amplitud pero  al ir aumentando sigue pasando este mismo funcionamiento en la salida atenúa a alguna frecuencia y sufre un aumento de amplitud el cual esta registrado en la siguiente tabla.\\

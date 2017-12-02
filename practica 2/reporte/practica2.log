@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.7.22)  1 DEC 2017 16:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.7.22)  1 DEC 2017 18:00
 entering extended mode
 **./practica2.tex
 (practica2.tex
@@ -1077,39 +1077,45 @@ Package pdftex.def Info: pulse2.jpg used on input line 234.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[4 <./parte3.jpg>] <barrido.jpg, id=48, 350.05782pt x 208.52907pt>
-File: barrido.jpg Graphic file (type jpg)
+[4 <./parte3.jpg>] <silabimag.jpg, id=48, 408.02437pt x 309.40594pt>
+File: silabimag.jpg Graphic file (type jpg)
 
-<use barrido.jpg>
-Package pdftex.def Info: barrido.jpg used on input line 285.
+<use silabimag.jpg>
+Package pdftex.def Info: silabimag.jpg used on input line 262.
+(pdftex.def)             Requested size: 252.94499pt x 191.8108pt.
+ [5 <./ac.jpg> <./pulse.jpg> <./pulse2.jpg>]
+<barrido.jpg, id=54, 350.05782pt x 208.52907pt>
+File: barrido.jpg Graphic file (type jpg)
+ <use barrido.jpg>
+Package pdftex.def Info: barrido.jpg used on input line 304.
 (pdftex.def)             Requested size: 252.94499pt x 150.68172pt.
- <tran.jpg, id=49, 2229.32875pt x 1816.7875pt>
+
+<tran.jpg, id=55, 2229.32875pt x 1816.7875pt>
 File: tran.jpg Graphic file (type jpg)
  <use tran.jpg>
-Package pdftex.def Info: tran.jpg used on input line 290.
+Package pdftex.def Info: tran.jpg used on input line 309.
 (pdftex.def)             Requested size: 252.94499pt x 206.1124pt.
 
-[5 <./ac.jpg> <./pulse.jpg> <./pulse2.jpg>]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[6 <./barrido.jpg>] [7 <./tran.jpg>]
+[6 <./silabimag.jpg> <./barrido.jpg>] [7] [8 <./tran.jpg>]
 Cap\'{\i }tulo 3.
-[8
+[9
 
 ]
 Cap\'{\i }tulo 4.
-[9
+[10
 
 ]
 Cap\'{\i }tulo 5.
 
-Overfull \hbox (44.72192pt too wide) in paragraph at lines 309--310
+Overfull \hbox (44.72192pt too wide) in paragraph at lines 328--329
 []\T1/cmr/m/n/12 [1].- ftp://www.ece.buap.mx/pub/JCid/Apuntes20de20Control20I/6
 -Capitulo20220Control20I.pdf 
  []
 
-[10
+[11
 
 ] (practica2.aux
 LaTeX Info: Redefining \. on input line 6.
@@ -1118,34 +1124,35 @@ LaTeX Info: Redefining \. on input line 10.
 LaTeX Info: Redefining \% on input line 10.
 ) ) 
 Here is how much of TeX's memory you used:
- 25693 strings out of 493323
- 615017 string characters out of 3139063
- 825620 words of memory out of 3000000
- 28776 multiletter control sequences out of 15000+200000
- 17258 words of font info for 46 fonts, out of 3000000 for 9000
+ 25728 strings out of 493323
+ 615410 string characters out of 3139063
+ 846620 words of memory out of 3000000
+ 28806 multiletter control sequences out of 15000+200000
+ 20138 words of font info for 58 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,9n,96p,987b,1666s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\carlos\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi60
-0\ecbx1000.pk> <C:\Users\carlos\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknapp
-en\ec\dpi600\ecrm1000.pk> <C:\Users\carlos\AppData\Local\MiKTeX\2.9\fonts\pk\lj
-four\jknappen\ec\dpi600\ecrm0600.pk> <C:\Users\carlos\AppData\Local\MiKTeX\2.9\
-fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\Users\carlos\AppData\Local\
-MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk> <C:\Users\carlos\App
-Data\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1440.pk> <C:\Users
-\carlos\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk
+0\ecti1000.pk> <C:\Users\carlos\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknapp
+en\ec\dpi600\ecbx1000.pk> <C:\Users\carlos\AppData\Local\MiKTeX\2.9\fonts\pk\lj
+four\jknappen\ec\dpi600\ecrm1000.pk> <C:\Users\carlos\AppData\Local\MiKTeX\2.9\
+fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0600.pk> <C:\Users\carlos\AppData\Local\
+MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\Users\carlos\App
+Data\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk> <C:\Users
+\carlos\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1440.pk
 > <C:\Users\carlos\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\
-ecbx1200.pk> <C:\Users\carlos\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen
-\ec\dpi600\ecbx2488.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
-/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi
-6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:
-/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program 
-Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKT
-eX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fon
-ts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
-/public/amsfonts/cm/cmsy8.pfb>
-Output written on practica2.pdf (12 pages, 1321032 bytes).
+ecrm1200.pk> <C:\Users\carlos\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen
+\ec\dpi600\ecbx1200.pk> <C:\Users\carlos\AppData\Local\MiKTeX\2.9\fonts\pk\ljfo
+ur\jknappen\ec\dpi600\ecbx2488.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfo
+nts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
+mi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><
+C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program
+ Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on practica2.pdf (13 pages, 1357031 bytes).
 PDF statistics:
- 380 PDF objects out of 1000 (max. 8388607)
+ 420 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 53 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 58 words of extra memory for PDF output out of 10000 (max. 10000000)
 

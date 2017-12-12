@@ -1,0 +1,36 @@
+Check list for laboratory reports - session 2.
+
+Formato y forma:
+- [x] Ortografía: práctica, Scilab, etc.
+- [ ] Redacción: En tercera persona.
+- [x] Plagio: No hay
+- [ ] Imágenes, Tablas, Referencias y Ecuaciones: fotografias de osciloscopio?, mejor capturas de pantalla
+
+Contenido:
+- [x] Introducción
+- [ ] Metodología
+    - [x] Fuerza bruta RL
+    - [ ] Función de transferencia RL por inspección:  No está completo
+- [ ] Desarrollo
+    - [ ] Circuito RC/RL respuesta transitoria (Tau): falta RC
+    - [ ] Circuito  RC/RL respuesta en frecuencia (Bode): falta RC
+- [ ] Simulación
+    - [ ] Matlab/Scilab step response: Mal, debe ser respuesta en el tiempo no frecuencia
+    - [x] LTI Spice simulación
+- [ ] Resultados 
+    - [ ] Comparación de resultados teórico-prácticos (transitorios): Mal
+    - [ ] Comparación de resultados teórico-prácticos (Bode): No se incluye
+- [ ] Conclusiones
+    - [x] Individuales
+    - [ ] Técnicas: No se indica nada respecto a los polos, tau, etc.
+    - [ ] Interesantes y reflexivas: No
+
+Repositorio:
+- [x] Carpetas
+- [ ] Código Scilab/Matlab
+- [ ] Código Spice
+- [x] Código de Latex
+- [x] Reporte en PDF
+- [x] Entregado en tiempo
+
+Grade=76
